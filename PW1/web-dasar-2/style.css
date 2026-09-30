@@ -1,0 +1,58 @@
+/* CTRL + / is Comment
+
+h1 {
+    color : hotpink;
+    font-size : 40px;
+    font-family : Noto Sans;
+}
+body {
+    text-align : justify;
+    font-family : Helvetica; 
+    font-style : italic;
+}
+
+a {
+    text-decoration : none;
+    color : blue ;
+}
+
+p {
+    text-indent : 40px;
+} */
+
+p {
+    text-align : justify;
+}
+
+#p1 {
+    font-weight : bold;
+}
+
+p.pink-color {
+    color : hotpink;
+}
+/* 
+ul li a:hover {
+    background-color : hotpink;
+    font-size : 20px;
+} */
+
+ul> li:first-child a:hover {
+    background-color : pink;
+    font-size : 20px;
+}
+
+ul> li:nth-child(4) a:hover {
+    background-color : hotpink;
+    font-size : 20px;
+}
+
+ol> li:nth-child(even) a:hover {
+    background-color : hotpink;
+    font-size : 20px;
+}
+
+ol> li:nth-child(odd) a:hover {
+    background-color : pink;
+    font-size : 20px;
+}
